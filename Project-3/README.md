@@ -2,7 +2,7 @@
 Random Password Generator
 -> In This We Can Generate the password randomly for the given user length
 ->length must be between 0 and 20 
-->In this random password generator we can copy the generated password to the clip board
+->In this random password generator we can copy the generated password to the required clip board
 # Installing Packages
 Install packages like
 pip install pyperclip
