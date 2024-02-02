@@ -6,7 +6,7 @@ from tkinter.font import Font
 
 def get_weather():
     city = entry_city.get()
-    api_key = "2fe62296096278d8f10a9b11f03a78a0" #repalce Your API
+    api_key = "Your API_Key" #repalce Your API
 
     link = f"https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&appid={api_key}" 
     city_weather_data = requests.get(link)
